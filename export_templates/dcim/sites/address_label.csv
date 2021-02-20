@@ -1,0 +1,3 @@
+{% for site in queryset %}
+{{ site.name }},{{ site.physical_address }}
+{% endfor %}
